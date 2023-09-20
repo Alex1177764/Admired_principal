@@ -5,13 +5,13 @@
 					<div class="contact-info">
 						<p class="title-footer">Información de Contacto</p>
 						<ul>
-							<li>
+							<p class="informacion">
 								Dirección: 71 Pennington Lane Vernon Rockville, CT
 								06066
-							</li>
-							<li>Teléfono: 123-456-7890</li>
-							<li>Fax: 55555300</li>
-							<li>EmaiL: baristas@support.com</li>
+							</p>
+							<p class="informacion">Teléfono: 123-456-7890</p>
+							<p class="informacion">Fax: 55555300</p>
+							<p class="informacion">EmaiL: baristas@support.com</p>
 						</ul>
 						<div class="social-icons">
 							<span class="facebook">
@@ -35,11 +35,9 @@
 					<div class="information">
 						<p class="title-footer">Información</p>
 						<ul>
-							<li><a href="#">Acerca de Nosotros</a></li>
-							<li><a href="#">Información Delivery</a></li>
-							<li><a href="#">Politicas de Privacidad</a></li>
-							<li><a href="#">Términos y condiciones</a></li>
-							<li><a href="#">Contactános</a></li>
+							<p class="informacion"><a href="#" class="informacion">Acerca de Nosotros</a></p>
+							<p class="informacion"><a href="#" class="informacion">Términos y condiciones</a></p>
+							<p class="informacion"><a href="#" class="informacion">Contactános</a></p>
 						</ul>
 					</div>
 
@@ -47,11 +45,7 @@
 						<p class="title-footer">Mi cuenta</p>
 
 						<ul>
-							<li><a href="#">Mi cuenta</a></li>
-							<li><a href="#">Historial de ordenes</a></li>
-							<li><a href="#">Lista de deseos</a></li>
-							<li><a href="#">Boletín</a></li>
-							<li><a href="#">Reembolsos</a></li>
+							<p><a href="?c=login&m=index" class="informacion">Mi cuenta</a></p>
 						</ul>
 					</div>
 
@@ -59,7 +53,7 @@
 						<p class="title-footer">Boletín informativo</p>
 
 						<div class="content">
-							<p>
+							<p class="informacion">
 								Suscríbete a nuestros boletines ahora y mantente al
 								día con nuevas colecciones y ofertas exclusivas.
 							</p>
@@ -70,7 +64,7 @@
 				</div>
 				<div class="copyright">
 					<p>
-						Desarrollado por Programación para el mundo &copy; 2022
+						Desarrollado por Programación para el mundo &copy; 2023
 					</p>
 
 					<img src="./assets/img/payment.png" alt="Pagos">

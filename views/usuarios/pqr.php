@@ -9,8 +9,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box">
-                        <h4 class="page-title">PQRs</h4>
                         <div class="pqr">
+                        <h4 class="page-title">Pqr</h4>
+                            <a href="?c=principal&m=principal" class="volver">←Volver</a>
                             <form action="">
                                 <h3>REGISTRO DE PQRS</h3>
                                 <input type="date" name="fecha actual"><br>

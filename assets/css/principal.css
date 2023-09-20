@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-	--primary-color: #c7a17a;
-	--background-color: #f9f5f0;
-	--dark-color: #151515;
+	--primary-color: #d3d5d3;
+	--background-color: #d3d5d3;
+	--dark-color: #000000;
 }
 
 html {
@@ -23,6 +23,11 @@ html {
 .container {
 	max-width: 120rem;
 	margin: 0 auto;
+}
+.informacion{
+	color: #000;
+	font-size: 13px;
+	text-decoration: none;
 }
 
 .heading-1 {
@@ -64,6 +69,8 @@ html {
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
+	max-width: 100%;
+	height: auto;
 }
 
 .container-logo i {
@@ -223,7 +230,7 @@ html {
 }
 
 .content-banner h2 {
-	color: #fff;
+	color: #000000;
 	font-size: 3.5rem;
 	font-weight: 500;
 	line-height: 1.2;
@@ -232,7 +239,7 @@ html {
 .content-banner a {
 	margin-top: 2rem;
 	text-decoration: none;
-	color: #fff;
+	color: #000000;
 	background-color: var(--primary-color);
 	display: inline-block;
 	padding: 1rem 3rem;
@@ -387,8 +394,8 @@ html {
 }
 
 .container-options span {
-	color: #777;
-	background-color: #fff;
+	color: #000000;
+	background-color: #000000;
 	padding: 0.7rem 3rem;
 	font-size: 1.4rem;
 	text-transform: capitalize;
@@ -398,12 +405,12 @@ html {
 
 .container-options span:hover {
 	background-color: var(--primary-color);
-	color: #fff;
+	color: #000000;
 }
 
 .container-options span.active {
 	background-color: var(--primary-color);
-	color: #fff;
+	color: #000000;
 }
 
 /* Products */
@@ -414,7 +421,7 @@ html {
 }
 
 .card-product {
-	background-color: #fff;
+	background-color: #cac3c3;
 	padding: 2rem 3rem;
 	border-radius: 0.5rem;
 	cursor: pointer;
@@ -684,7 +691,7 @@ html {
 .btn-read-more {
 	padding: 1rem 3rem;
 	background-color: var(--primary-color);
-	color: #fff;
+	color: #000000;
 	text-transform: uppercase;
 	font-size: 1.4rem;
 	border-radius: 2rem;
@@ -695,6 +702,7 @@ html {
 
 .btn-read-more:hover {
 	background-color: var(--dark-color);
+	color: #fff;
 }
 
 /* ********************************** */
@@ -710,6 +718,7 @@ html {
 	flex-direction: column;
 	gap: 4rem;
 	padding: 3rem;
+	border: 1px solid #ffffff;
 }
 
 .menu-footer {
@@ -813,8 +822,9 @@ html {
 
 .content p {
 	font-size: 1.4rem;
-	color: #fff;
+	color: #000000;
 	font-weight: 300;
+	font-size: 15px;
 }
 
 .content input {

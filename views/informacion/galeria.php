@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="./assets/css/principal.css">
 <link rel="stylesheet" href="./assets/css/galeria.css">
-<h3>Resevas de Areas Comunes</h3>
-<a href="?c=principal&m=principal" class="volver">←Volver</a>
+<h3>Reservas de Aras Comunes</h3>
+<a href="?c=dashboard&m=dashboard" class="volver">←Volver</a>
 <section class="container top-products">
 				<h1 class="heading-1">RESERVAS DE AREAS COMUNES</h1>
 				<div class="container-products">
@@ -99,6 +99,7 @@
 								<i class="fa-solid fa-basket-shopping"></i>
 							</span>
 							<p class="title">Para compartir con tu familia y amigos tus momentos felices</p>
+                            <p class="price">$180.000 <span>$200.000</span></p>
 						</div>
 					</div>
 					<!-- AREA 4 -->

@@ -43,10 +43,10 @@
 					<ul class="menu">
 						<li><a href="?c=dashboard&m=dashboard">Inicio</a></li>
 						<li><a href="?c=informacion&m=sobre_nosotros">sobre nosotros</a></li>
-						<li><a href="servicios.php">Servicios</a></li>
-						<li><a href="noticias.php">Noticias</a></li>
+						<li><a href="?c=informacion&m=servicios">Servicios</a></li>
+						<li><a href="?c=informacion&m=noticias">Noticias</a></li>
 						<li><a href="?c=informacion&m=contactanos">Contactanos</a></li>
-						<li><a href="galeria.php">Galeria</a></li>
+						<li><a href="?c=informacion&m=galeria">Galeria</a></li>
 						<li><a href="?c=login&m=index">Iniciar Sesión</a></li>
 					</ul>
 

@@ -33,8 +33,8 @@
                     <!--Login-->
                     <form action="" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
-                        <input type="text" placeholder="Correo Electronico">
-                        <input type="password" placeholder="Contraseña">
+                        <input type="text" placeholder="Correo Electronico" value="alex@gmail.com">
+                        <input type="password" placeholder="Contraseña" value="1234567">
                         <button><a href="?c=principal&m=principal">Entrar</a></button>
                     </form>
 
